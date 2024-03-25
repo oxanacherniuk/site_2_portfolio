@@ -136,6 +136,9 @@
         max-width: 300px;
         text-align: center;
     }
+    html body .video {
+        padding: 100px 0px;
+    }
     html body .video .video-block__start h2 {
         font-size: 30px;
         line-height: 100%;
