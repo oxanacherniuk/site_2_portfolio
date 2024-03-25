@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Alivio</title>
+</head>
+<body>
+    
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-menu">
+                <img src="img/logo green.svg" class="logo">
+                <button class="mobile-btn" onclick="menuMobile()"><img src="img/mobile-menu btn.svg"></button>
+                <button class="close-btn close" onclick="closeMenu()"><img src="img/close.svg"></button>
+                <ul class="header-menu__items">
+                    <li class="header-menu__item"><a href="#work">Why Alivio</a></li>
+                    <li class="header-menu__item"><a href="#video">Solutions</a></li>
+                    <li class="header-menu__item"><a href="#product">Community</a></li>
+                    <li class="header-menu__item last"><a href="#footer">Pricing</a></li>
+                </ul>
+                <div class="header-menu__buttons">
+                    <button class="sign">Sign in</button>
+                    <button class="start btn">Start Trial</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu-nav -->
+    <div class="menu close">
+        <div class="container">
+            <div class="menu-nav">
+                <ul class="menu-nav__items">
+                    <li class="menu-nav__item"><a href="#work">Why Alivio</a></li>
+                    <li class="menu-nav__item"><a href="#video">Solutions</a></li>
+                    <li class="menu-nav__item"><a href="#product">Community</a></li>
+                    <li class="menu-navu__item last"><a href="#footer">Pricing</a></li>
+                </ul>
+                <div class="menu-nav__buttons">
+                    <button class="sign">Sign in</button>
+                    <button class="start btn">Start Trial</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Главный экран -->
+    <section class="main" id="main">
+        <div class="container">
+            <div class="main-screen">
+                <h1 class="main-screen__title">Be aware, Manage well.</h1>
+                <div class="main-screen__text">Everyone experiences stress in different ways.
+                    Let Alivio guide you, in a personalized journal experience, to overcome your stress.</div>
+                <button class="main-screen__btn btn" onclick="location.href='#work';">Find Your Way</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как работают -->
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="work-info">
+                <p class="work-info__small-title">How it works</p>
+                <div class="work-info__texts">
+                    <h2 class="title">Understand & Release the stress in 3 steps</h2>
+                    <p class="text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="work-card__item">
+                    <div class="numbering">
+                        <p class="number">01</p>
+                        <p class="number-title">Personalize</p>
+                    </div>
+                    <p class="work-card__item-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                    <img class="work-card__item-img" src="img/item 1.png">
+                </div>
+                <div class="work-card__item">
+                    <div class="numbering">
+                        <p class="number">02</p>
+                        <p class="number-title">Write & Understand</p>
+                    </div>
+                    <p class="work-card__item-text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+                    <img class="work-card__item-img" src="img/item 2.png">
+                </div>
+                <div class="work-card__item">
+                    <div class="numbering">
+                        <p class="number">03</p>
+                        <p class="number-title">Alivio!</p>
+                    </div>
+                    <p class="work-card__item-text">Now you are aware, and have a way to manage and overcome your own stress.
+                        What are you waiting for? Alivio today!</p>
+                    <img class="work-card__item-img" src="img/item 3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок видео -->
+
+    <section class="video" id="video">
+        <div class="container">
+            <div class="video-block">
+                <div class="video-block__start">
+                    <h2>Let's hear about Kayla's success story</h2>
+                    <p>See how well Alivio works in a real customer’s life. </p>
+                    <button class="btn" onclick="location.href='#product';">Let’s get started</button>
+                </div>
+                <div class="video-block__move">
+                    <img src="img/video.svg">
+                    <a href="https://youtu.be/IMxDeACOWCE?si=m7GGFmyUEK1dvSNZ" class="play"><img src="img/play-white.svg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Наш продукт -->
+
+    <section class="product" id="product">
+        <div class="container">
+            <div class="our-product">
+                <div class="our-product__cards">
+                    <img class="women" src="img/women.png" alt="">
+                    <div class="card">
+                        <p class="card__title">Customized For</p>
+                        <div class="card__line"></div>
+                        <img class="card__img" src="img/a circle.svg" alt="">
+                        <p class="card__name">Mikayla</p>
+                        <p class="card__custom">Your custom contents</p>
+                        <ul class="card__list">
+                            <li>Understand Your Stress</li>
+                            <li>Anger Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="our-product__info">
+                    <p class="small-title">Our product</p>
+                    <p class="large-title">You tell us your stress,<br>We make your diary</p>
+                    <p class="text">Everyone experiences it, and in different ways.
+                        Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                    <button class="btn product-btn">Find Your Way</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <ul>
+                    <li class="footer-inner__item"><img src="img/logo white.svg"></li>
+                    <li class="footer-inner__item"><a href="#work">Why Alivio</a></li>
+                    <li class="footer-inner__item"><a href="#video">Solutions</a></li>
+                    <li class="footer-inner__item"><a href="#product">Community</a></li>
+                    <li class="footer-inner__item"><a href="#footer">Pricing</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

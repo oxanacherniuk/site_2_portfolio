@@ -1,0 +1,390 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #01996D;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 65px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #01996D;
+  color: #01996D;
+  font-weight: 400;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Header */
+  /* Menu mobile*/
+  /* Work */
+  /* Блок видео */
+  /* Наш продукт */
+  /* Footer */
+}
+html body .header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D6D6D6;
+}
+html body .header .header-menu {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+html body .header .header-menu .mobile-btn, html body .header .header-menu .close-btn {
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+html body .header .header-menu__items {
+  display: flex;
+}
+html body .header .header-menu__items a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+html body .header .header-menu__items a:hover {
+  color: #01996D;
+}
+html body .header .header-menu__item {
+  margin-right: 70px;
+}
+html body .header .header-menu__item:last-child {
+  margin-right: 0;
+}
+html body .header .header-menu__buttons .sign {
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: transparent;
+}
+html body .header .header-menu__buttons .sign:hover {
+  color: #01996D;
+  cursor: pointer;
+}
+html body .header .header-menu__buttons .start {
+  height: 50px;
+  width: 180px;
+}
+html body .menu {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D6D6D6;
+  display: none;
+}
+html body .menu .menu-nav {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+html body .menu .menu-nav__items {
+  display: flex;
+}
+html body .menu .menu-nav__items a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+html body .menu .menu-nav__items a:hover {
+  color: #01996D;
+}
+html body .menu .menu-nav__item {
+  margin-right: 70px;
+}
+html body .menu .menu-nav__item:last-child {
+  margin-right: 0;
+}
+html body .menu .menu-nav__buttons .sign {
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: transparent;
+}
+html body .menu .menu-nav__buttons .sign:hover {
+  color: #01996D;
+  cursor: pointer;
+}
+html body .menu .menu-nav__buttons .start {
+  height: 50px;
+  width: 180px;
+}
+html body .main {
+  background-image: url(../img/BG.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+html body .main .main-screen {
+  padding-bottom: 335px;
+}
+html body .main .main-screen__title {
+  font-size: 65px;
+  max-width: 440px;
+  color: #01996D;
+  font-weight: bold;
+  font-family: "Georgia", sans-serif;
+  padding-top: 175px;
+  margin-top: 0;
+}
+html body .main .main-screen__text {
+  color: #484848;
+  max-width: 420px;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+html body .main .main-screen__btn {
+  margin-top: 55px;
+  width: 227px;
+}
+html body .work {
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+html body .work .work-info__small-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 0;
+  line-height: 187%;
+  margin-bottom: 5px;
+}
+html body .work .work-info__texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+html body .work .work-info__texts .title {
+  max-width: 584px;
+  color: #01996D;
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+html body .work .work-info__texts .text {
+  max-width: 640px;
+  color: #484848;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 167%;
+}
+html body .work .work-card {
+  display: flex;
+  justify-content: space-between;
+}
+html body .work .work-card__item .numbering {
+  position: relative;
+  margin-bottom: 40px;
+}
+html body .work .work-card__item .numbering .number {
+  font-family: "Georgia", sans-serif;
+  color: rgba(1, 153, 109, 0.2);
+  font-size: 150px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+html body .work .work-card__item .numbering .number-title {
+  position: absolute;
+  left: 75px;
+  top: 75px;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Georgia", sans-serif;
+}
+html body .work .work-card__item:nth-child(2) {
+  margin-top: 260px;
+}
+html body .work .work-card__item:nth-child(3) {
+  margin-top: 35px;
+}
+html body .work .work-card__item-text {
+  max-width: 392px;
+  font-size: 20px;
+  line-height: 170%;
+  color: #424242;
+  margin-bottom: 40px;
+}
+html body .video {
+  background-color: #245852;
+  padding: 250px 0;
+}
+html body .video .video-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body .video .video-block__start h2 {
+  color: #fff;
+  max-width: 580px;
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  line-height: 177%;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+html body .video .video-block__start p {
+  max-width: 550px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 55px;
+}
+html body .video .video-block__start button {
+  width: 240px;
+}
+html body .video .video-block__start button:hover {
+  color: #fff;
+}
+html body .video .video-block__move {
+  position: relative;
+}
+html body .video .video-block__move .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .product {
+  padding-top: 120px;
+  padding-bottom: 240px;
+}
+html body .product .our-product {
+  display: flex;
+  justify-content: space-between;
+}
+html body .product .our-product__cards {
+  position: relative;
+}
+html body .product .our-product__cards .women {
+  margin-left: 60px;
+}
+html body .product .our-product__cards .card {
+  position: absolute;
+  top: 355px;
+  width: 296px;
+  height: 293px;
+  padding: 26px 58px;
+  background-color: #fff;
+  filter: drop-shadow(0px 3px 18px rgba(165, 165, 165, 0.25));
+}
+html body .product .our-product__cards .card__title {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+html body .product .our-product__cards .card__line {
+  height: 0.75px;
+  background-color: #000;
+  width: 110.49px;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+html body .product .our-product__cards .card__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+html body .product .our-product__cards .card__name {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+html body .product .our-product__cards .card__custom {
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+}
+html body .product .our-product__cards .card__list {
+  margin: 0 auto;
+}
+html body .product .our-product__cards .card__list li {
+  list-style-type: disc;
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+html body .product .our-product__info .small-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 187%;
+}
+html body .product .our-product__info .large-title {
+  max-width: 584px;
+  color: #01996D;
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+html body .product .our-product__info .text {
+  max-width: 520px;
+  color: #484848;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 167%;
+}
+html body .product .our-product__info .product-btn {
+  width: 227px;
+}
+html body .footer {
+  background-color: #245852;
+  padding: 95px 0;
+}
+html body .footer-inner__item {
+  margin-bottom: 60px;
+}
+html body .footer-inner__item a {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+}
+html body .footer-inner__item a:hover {
+  color: #01996D;
+}/*# sourceMappingURL=main.css.map */
